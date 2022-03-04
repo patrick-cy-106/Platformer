@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Bullet
   - Enemy
+  - Spike
+  - Candy
   layers:
   - Default
   - TransparentFX

@@ -62,4 +62,32 @@ public class PlayerControl : MonoBehaviour
             newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletForce * transform.localScale.x, 0));
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        // Death if Spike or Enemy
+        if(other.CompareTag("Spike"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        // Score chante if Candy
+        if (other.CompareTag("Candy"))
+        {
+            // _audioSource.clip = candySound;
+            // _audioSource.Play();
+            
+            Destroy(other.gameObject);
+            //score++;
+            //scoreUI.text = "Candy Collected: " + score + "/4";
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other) 
+    {
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
 }

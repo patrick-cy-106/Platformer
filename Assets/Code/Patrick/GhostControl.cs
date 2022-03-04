@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GhostControl : MonoBehaviour
 {
+    public GameObject explosion;
     //Animator _animator;
     void Start()
     {
@@ -19,6 +20,7 @@ public class GhostControl : MonoBehaviour
     {
         if(other.CompareTag("Bullet"))
         {
+            Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(other.gameObject);
             //_animator.SetTrigger("Death");
             Destroy(gameObject, 0.3f);

@@ -8,7 +8,7 @@ public class StartMenu : MonoBehaviour
     // Start Game Button
     public void StartGame()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Level_Select");
     }
 
     // Exit Game Button

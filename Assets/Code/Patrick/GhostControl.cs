@@ -5,10 +5,10 @@ using UnityEngine;
 public class GhostControl : MonoBehaviour
 {
     public GameObject explosion;
-    //Animator _animator;
+    Animator _animator;
     void Start()
     {
-        //_animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -22,7 +22,7 @@ public class GhostControl : MonoBehaviour
         {
             Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(other.gameObject);
-            //_animator.SetTrigger("Death");
+            _animator.SetTrigger("Death");
             Destroy(gameObject, 0.3f);
         }
     }

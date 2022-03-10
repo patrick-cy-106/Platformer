@@ -7,8 +7,9 @@ public class PlayerControl : MonoBehaviour
 {   
     // Basic Movement Variables
     Rigidbody2D _rigidbody;
+    Animator _animator;
     int speed = 10;
-    int jumpForce = 800;
+    int jumpForce = 900;
 
     // Jumping Variables
     public LayerMask groundLayer;
@@ -19,7 +20,7 @@ public class PlayerControl : MonoBehaviour
     // Shooting Variables
     public GameObject bulletPrefab;
     public Transform gunPos;
-    int bulletForce = 1000;
+    int bulletForce = 250;
 
     // Death Mechanic Variables
     bool isAlive = true;
@@ -27,6 +28,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate() 
@@ -48,6 +50,7 @@ public class PlayerControl : MonoBehaviour
         // Left, Right Movement
         float xSpeed = Input.GetAxis("Horizontal") * speed;
         _rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);
+        _animator.SetFloat("Speed", Mathf.Abs(xSpeed));
 
         // Jumping
         if(isGrounded && Input.GetButtonDown("Jump"))
@@ -60,6 +63,11 @@ public class PlayerControl : MonoBehaviour
         {
             GameObject newBullet = Instantiate(bulletPrefab, gunPos.position, Quaternion.identity);
             newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletForce * transform.localScale.x, 0));
+        }
+
+        // Flipping Sprite
+        if (xSpeed>0 && transform.localScale.x<0 || xSpeed<0 && transform.localScale.x>0){
+            transform.localScale *= new Vector2(-1, 1);
         }
     }
 

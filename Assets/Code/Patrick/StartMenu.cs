@@ -10,6 +10,19 @@ public class StartMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level_Select");
     }
+    
+    // Instructions Button
+    public void InstructionsMenu()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
+
+    // Achievements Button
+    public void AchievementsMenu()
+    {
+        SceneManager.LoadScene("Achievements");
+    }
 
     // Exit Game Button
     public void ExitGame()

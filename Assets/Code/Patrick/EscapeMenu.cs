@@ -12,7 +12,7 @@ public class ExitGame : MonoBehaviour
 
     void Update() 
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             SceneManager.LoadScene("Title_Screen");
         }

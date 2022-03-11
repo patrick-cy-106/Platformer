@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class PlayerControl1 : MonoBehaviour
 {   
@@ -21,29 +20,26 @@ public class PlayerControl1 : MonoBehaviour
     // Shooting Variables
     public GameObject bulletPrefab;
     public Transform gunPos;
-    int bulletForce = 250;
+    int bulletForce = 200;
 
     // Death Mechanic Variables
     bool isAlive = true;
 
-    // Score System
-    int score = 0;
-    public TextMeshProUGUI scoreUI;
-
-    // Sound
-    // public AudioClip candySound;
-    // AudioSource _audioSource;
+    // Walking Sound
+    //public AudioClip walkingSound;
+    //AudioSource _audioSource;
 
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();        
+        _animator = GetComponent<Animator>();     
     }
 
     private void FixedUpdate() 
     {
         // Check if grounded
         isGrounded = Physics2D.OverlapCircle(feetPos.position, groundCheckDist, groundLayer);
+        _animator.SetBool("Grounded", isGrounded);
 
         // Death Mechanic
         if(isAlive && (transform.position.y <-10))
@@ -63,15 +59,13 @@ public class PlayerControl1 : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        // Score chante if Candy
+        // Score change if Candy
         if (other.CompareTag("Candy"))
         {
             // _audioSource.clip = candySound;
             // _audioSource.Play();
             
             Destroy(other.gameObject);
-            score++;
-            scoreUI.text = "Candy Collected: " + score + "/4";
         }
     }
 
@@ -80,7 +74,7 @@ public class PlayerControl1 : MonoBehaviour
         // Left, Right Movement
         float xSpeed = Input.GetAxis("Horizontal") * speed;
         _rigidbody.velocity = new Vector2(xSpeed, _rigidbody.velocity.y);
-        _animator.SetFloat("Speed", Mathf.Abs(xSpeed));        
+        _animator.SetFloat("Speed", Mathf.Abs(xSpeed));
 
         // Jumping
         if(isGrounded && Input.GetButtonDown("Jump"))
@@ -92,6 +86,7 @@ public class PlayerControl1 : MonoBehaviour
         // Shooting
         if(Input.GetButtonDown("Fire1"))
         {
+            _animator.SetTrigger("Shoot");
             GameObject newBullet = Instantiate(bulletPrefab, gunPos.position, Quaternion.identity);
             newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletForce * transform.localScale.x, 0));
         }
@@ -100,6 +95,8 @@ public class PlayerControl1 : MonoBehaviour
         if (xSpeed>0 && transform.localScale.x<0 || xSpeed<0 && transform.localScale.x>0){
             transform.localScale *= new Vector2(-1, 1);
         }        
+
+        
     }
 
      private void OnCollisionEnter2D(Collision2D other) 

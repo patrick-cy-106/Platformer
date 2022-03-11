@@ -14,6 +14,7 @@ public class ExitGame : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.JoystickButton6))
         {
+            PublicVars.isAlive = false;
             SceneManager.LoadScene("Title_Screen");
         }
     }

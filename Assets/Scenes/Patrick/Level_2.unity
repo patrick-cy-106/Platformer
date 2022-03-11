@@ -7048,7 +7048,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7772194, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7316,7 +7316,7 @@ MonoBehaviour:
   feetPos: {fileID: 357914806}
   bulletPrefab: {fileID: 3960679293340344554, guid: 78e48eaf97150324e9b336ed1ec37d62, type: 3}
   gunPos: {fileID: 3787057}
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 64da87fdd649b7f4cac79dc52d0a53d0, type: 3}
   deathSound: {fileID: 0}
   damageSound: {fileID: 0}
 --- !u!212 &1379626312

@@ -108,6 +108,7 @@ public class PlayerControl1 : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Enemy"))
         {
+            PublicVars.isAlive = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

@@ -15,7 +15,7 @@ public class AchievementsMenu : MonoBehaviour
     {
         lvl_1.text = "Level 1 Candy Collected: " + PublicVars.itemsCollected[0] + "/1";
         lvl_2.text = "Level 2 Candy Collected: " + PublicVars.itemsCollected[1] + "/3";
-        lvl_3.text = "Level 3 Candy Collected: " + PublicVars.itemsCollected[2] + "/0";
+        lvl_3.text = "Level 3 Candy Collected: " + PublicVars.itemsCollected[2] + "/1";
         lvl_4.text = "Level 4 Candy Collected: " + PublicVars.itemsCollected[3] + "/4";
         lvl_5.text = "Level 5 Candy Collected: " + PublicVars.itemsCollected[4] + "/4";
     }

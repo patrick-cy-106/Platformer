@@ -17,7 +17,23 @@ public class MovingPlatform : MonoBehaviour
             yield return StartCoroutine(MoveObject(transform, pointB, pointA, 3.0f));
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other) 
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            other.transform.SetParent(transform);
+        }
+    }
    
+   private void OnCollisionExit2D(Collision2D other) 
+   {
+       if(other.gameObject.CompareTag("Player"))
+        {
+            other.transform.SetParent(null);
+        }
+   }
+
     IEnumerator MoveObject(Transform thisTransform, Vector2 startPos, Vector2 endPos, float time)
     {
         var i= 0.0f;

@@ -23,23 +23,32 @@ public class PlayerControl : MonoBehaviour
     int bulletForce = 250;
 
     // Death Mechanic Variables
-    bool isAlive = true;
+    
+
+    // Audio
+    AudioSource _audioSource;
+    public AudioClip shootSound;
+    public AudioClip deathSound;
+    public AudioClip damageSound;
 
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
+        PublicVars.isAlive = true;
     }
 
     private void FixedUpdate() 
     {
         // Check if grounded
         isGrounded = Physics2D.OverlapCircle(feetPos.position, groundCheckDist, groundLayer);
+        _animator.SetBool("Grounded", isGrounded);
 
         // Death Mechanic
-        if(isAlive && (transform.position.y <-10))
+        if(PublicVars.isAlive && (transform.position.y <-10))
         {
-            isAlive = false;
+            PublicVars.isAlive = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
@@ -55,14 +64,18 @@ public class PlayerControl : MonoBehaviour
         // Jumping
         if(isGrounded && Input.GetButtonDown("Jump"))
         {
+            _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0);
             _rigidbody.AddForce(new Vector2(0, jumpForce));
+            _audioSource.Pause();
         }
 
         // Shooting
         if(Input.GetButtonDown("Fire1"))
         {
+            _animator.SetTrigger("Shoot");
             GameObject newBullet = Instantiate(bulletPrefab, gunPos.position, Quaternion.identity);
             newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletForce * transform.localScale.x, 0));
+            _audioSource.PlayOneShot(shootSound);
         }
 
         // Flipping Sprite
@@ -82,12 +95,10 @@ public class PlayerControl : MonoBehaviour
         // Score chante if Candy
         if (other.CompareTag("Candy"))
         {
-            // _audioSource.clip = candySound;
-            // _audioSource.Play();
+            //_audioSource.clip = candySound;
+            _audioSource.Play();
             
             Destroy(other.gameObject);
-            //score++;
-            //scoreUI.text = "Candy Collected: " + score + "/4";
         }
     }
 
@@ -95,6 +106,7 @@ public class PlayerControl : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Enemy"))
         {
+            PublicVars.isAlive = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

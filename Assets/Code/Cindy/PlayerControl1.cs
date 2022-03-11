@@ -10,7 +10,7 @@ public class PlayerControl1 : MonoBehaviour
     Animator _animator;    
     int speed = 10;
     int jumpForce = 900;
-
+    
     // Jumping Variables
     public LayerMask groundLayer;
     public Transform feetPos;
@@ -23,16 +23,20 @@ public class PlayerControl1 : MonoBehaviour
     int bulletForce = 200;
 
     // Death Mechanic Variables
-    bool isAlive = true;
 
-    // Walking Sound
+
     //public AudioClip walkingSound;
-    //AudioSource _audioSource;
+    AudioSource _audioSource;
+    public AudioClip shootSound;
+    public AudioClip deathSound;
+    public AudioClip damageSound;
 
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _animator = GetComponent<Animator>();     
+        _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();     
+        PublicVars.isAlive = true;
     }
 
     private void FixedUpdate() 
@@ -42,31 +46,12 @@ public class PlayerControl1 : MonoBehaviour
         _animator.SetBool("Grounded", isGrounded);
 
         // Death Mechanic
-        if(isAlive && (transform.position.y <-10))
+        if(PublicVars.isAlive && (transform.position.y <-10))
         {
-            isAlive = false;
+            PublicVars.isAlive = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-    }
-
-
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        // Death if Spike or Enemy
-        if(other.CompareTag("Spike"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-
-        // Score change if Candy
-        if (other.CompareTag("Candy"))
-        {
-            // _audioSource.clip = candySound;
-            // _audioSource.Play();
-            
-            Destroy(other.gameObject);
-        }
     }
 
     void Update()
@@ -81,6 +66,7 @@ public class PlayerControl1 : MonoBehaviour
         {
             _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, 0);
             _rigidbody.AddForce(new Vector2(0, jumpForce));
+            _audioSource.Pause();
         }
 
         // Shooting
@@ -89,6 +75,7 @@ public class PlayerControl1 : MonoBehaviour
             _animator.SetTrigger("Shoot");
             GameObject newBullet = Instantiate(bulletPrefab, gunPos.position, Quaternion.identity);
             newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(bulletForce * transform.localScale.x, 0));
+            _audioSource.PlayOneShot(shootSound);
         }
 
         // Flipping Sprite
@@ -99,10 +86,29 @@ public class PlayerControl1 : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        // Death if Spike or Enemy
+        if(other.CompareTag("Spike"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+        // Score change if Candy
+        if (other.CompareTag("Candy"))
+        {
+            //_audioSource.clip = candySound;
+            _audioSource.Play();
+            
+            Destroy(other.gameObject);
+        }
+    }
+
      private void OnCollisionEnter2D(Collision2D other) 
     {
         if(other.gameObject.CompareTag("Enemy"))
         {
+            PublicVars.isAlive = false;
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

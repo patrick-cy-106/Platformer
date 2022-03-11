@@ -19,7 +19,7 @@ public class ScoreUI : MonoBehaviour
                 break;
 
             case 3:
-                scoreUI.text = "Candy Collected: " + PublicVars.itemsCollected[currLvl-1] + "/4";
+                scoreUI.text = "Candy Collected: " + PublicVars.itemsCollected[currLvl-1] + "/1";
                 break;
 
             case 4:

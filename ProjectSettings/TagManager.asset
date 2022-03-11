@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Spike
   - Candy
+  - GroundWall
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - UI
   - Player
   - Ground
-  - 
-  - 
+  - Wall
+  - Ghost
   - 
   - 
   - 

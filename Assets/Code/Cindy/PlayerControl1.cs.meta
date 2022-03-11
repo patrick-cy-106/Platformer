@@ -3,7 +3,13 @@ guid: 11005896e20a1415ea4bd85942a25626
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - feetPos: {instanceID: 0}
+  - bulletPrefab: {instanceID: 0}
+  - gunPos: {instanceID: 0}
+  - shootSound: {fileID: 8300000, guid: 64da87fdd649b7f4cac79dc52d0a53d0, type: 3}
+  - deathSound: {fileID: 8300000, guid: b26132de33c123d4d8ff61769ff7ca56, type: 3}
+  - damageSound: {fileID: 8300000, guid: 9f79d759e08b9b64db080bd318582c0f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

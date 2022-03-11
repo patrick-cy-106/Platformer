@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5601555}
   - component: {fileID: 5601556}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8043870}
   - component: {fileID: 8043871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8050491}
   - component: {fileID: 8050490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 17018336}
   - component: {fileID: 17018337}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23266530}
   - component: {fileID: 23266531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35321491}
   - component: {fileID: 35321490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 58833023}
   - component: {fileID: 58833024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,7 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65781059}
   - component: {fileID: 65781060}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,6 +835,90 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65781058}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &70425526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 70425527}
+  - component: {fileID: 70425528}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &70425527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70425526}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2504, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &70425528
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70425526}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -1008,6 +1092,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &102919726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 102919727}
+  - component: {fileID: 102919728}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &102919727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102919726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.084, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &102919728
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102919726}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &106452900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 106452901}
   - component: {fileID: 106452902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109863317}
   - component: {fileID: 109863318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,7 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120047610}
   - component: {fileID: 120047611}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 146170180}
   - component: {fileID: 146170181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1359,7 +1527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160944405}
   - component: {fileID: 160944406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1443,7 +1611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166168339}
   - component: {fileID: 166168338}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1527,7 +1695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 168984530}
   - component: {fileID: 168984529}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1611,7 +1779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173810026}
   - component: {fileID: 173810027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188920264}
   - component: {fileID: 188920265}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1779,7 +1947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200935653}
   - component: {fileID: 200935654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +2031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202445236}
   - component: {fileID: 202445237}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1947,7 +2115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 211118677}
   - component: {fileID: 211118678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2031,7 +2199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242001665}
   - component: {fileID: 242001666}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2115,7 +2283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 242996262}
   - component: {fileID: 242996261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 269653566}
   - component: {fileID: 269653565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2367,7 +2535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 273196014}
   - component: {fileID: 273196013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 278375202}
   - component: {fileID: 278375203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2540,7 +2708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296349511}
   - component: {fileID: 296349512}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2624,7 +2792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 317994956}
   - component: {fileID: 317994957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2708,7 +2876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 321178260}
   - component: {fileID: 321178261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2792,7 +2960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 332767244}
   - component: {fileID: 332767245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2937,7 +3105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345548084}
   - component: {fileID: 345548085}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3089,6 +3257,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
   m_PrefabInstance: {fileID: 349442661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &353498263
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.836049
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 13.140399
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -80.547554
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266161110071482474, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2629921316271206419, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
+      propertyPath: m_Name
+      value: MusicManag
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d447312757c48f64b9cd29ebb5ad4c9a, type: 3}
 --- !u!1 &362602837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,7 +3324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362602838}
   - component: {fileID: 362602839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3183,7 +3408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 370302947}
   - component: {fileID: 370302946}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3267,7 +3492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377492254}
   - component: {fileID: 377492255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3351,7 +3576,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380399469}
   - component: {fileID: 380399470}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3508,7 +3733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399680510}
   - component: {fileID: 399680511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3592,7 +3817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 404005046}
   - component: {fileID: 404005047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3676,7 +3901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413907516}
   - component: {fileID: 413907515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3760,7 +3985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429508252}
   - component: {fileID: 429508253}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3844,7 +4069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 441167584}
   - component: {fileID: 441167585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3933,7 +4158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 449570513}
   - component: {fileID: 449570514}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Square (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4000,7 +4225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450359546}
   - component: {fileID: 450359547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4084,7 +4309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 454398951}
   - component: {fileID: 454398952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4257,7 +4482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456673715}
   - component: {fileID: 456673716}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4419,7 +4644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470623299}
   - component: {fileID: 470623300}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4503,7 +4728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 472066951}
   - component: {fileID: 472066952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4587,7 +4812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 484515820}
   - component: {fileID: 484515821}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4671,7 +4896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 491475154}
   - component: {fileID: 491475155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4755,7 +4980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492852080}
   - component: {fileID: 492852081}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4829,6 +5054,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &507786655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507786656}
+  - component: {fileID: 507786657}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507786656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507786655}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.4158, y: -0.008, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &507786657
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507786655}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &526775964
 GameObject:
   m_ObjectHideFlags: 0
@@ -4839,7 +5148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526775965}
   - component: {fileID: 526775966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4980,7 +5289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561032497}
   - component: {fileID: 561032498}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5064,7 +5373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563492785}
   - component: {fileID: 563492786}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5148,7 +5457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 569956147}
   - component: {fileID: 569956148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5232,7 +5541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 570572231}
   - component: {fileID: 570572232}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5306,7 +5615,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &573015848
+--- !u!1 &574654799
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5314,29 +5623,139 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 573015849}
-  m_Layer: 6
-  m_Name: Gun
+  - component: {fileID: 574654800}
+  - component: {fileID: 574654801}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &573015849
+--- !u!4 &574654800
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573015848}
+  m_GameObject: {fileID: 574654799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.058, y: -0.107, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.084, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1358310287}
-  m_RootOrder: 1
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &574654801
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574654799}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1001 &582708494
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755581075844882793, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+      propertyPath: m_Name
+      value: Player (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
 --- !u!1 &593202760
 GameObject:
   m_ObjectHideFlags: 0
@@ -5347,7 +5766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 593202761}
   - component: {fileID: 593202762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5431,7 +5850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 611151166}
   - component: {fileID: 611151167}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5514,7 +5933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612569861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5573,7 +5992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 623652918}
   - component: {fileID: 623652919}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5680,6 +6099,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &629328893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629328894}
+  - component: {fileID: 629328895}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &629328894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629328893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4161, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &629328895
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629328893}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &630756016
 GameObject:
   m_ObjectHideFlags: 0
@@ -5690,7 +6193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 630756017}
   - component: {fileID: 630756018}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5774,7 +6277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642548003}
   - component: {fileID: 642548004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5858,7 +6361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662714700}
   - component: {fileID: 662714701}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5942,7 +6445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 663084442}
   - component: {fileID: 663084443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6026,7 +6529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 671753607}
   - component: {fileID: 671753608}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6110,7 +6613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 673387799}
   - component: {fileID: 673387800}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6199,7 +6702,7 @@ GameObject:
   - component: {fileID: 696930152}
   - component: {fileID: 696930151}
   - component: {fileID: 696930150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7472,7 +7975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 721497164}
   - component: {fileID: 721497165}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7556,7 +8059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 725460300}
   - component: {fileID: 725460301}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7640,7 +8143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737608867}
   - component: {fileID: 737608868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7724,7 +8227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 797884118}
   - component: {fileID: 797884119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7808,7 +8311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798237880}
   - component: {fileID: 798237881}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7892,7 +8395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798697736}
   - component: {fileID: 798697737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7976,7 +8479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804928947}
   - component: {fileID: 804928948}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8060,7 +8563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 814150235}
   - component: {fileID: 814150236}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8144,7 +8647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815255503}
   - component: {fileID: 815255504}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8228,7 +8731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 820056102}
   - component: {fileID: 820056101}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8397,7 +8900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839709359}
   - component: {fileID: 839709360}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8481,7 +8984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841649305}
   - component: {fileID: 841649306}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8565,7 +9068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843165749}
   - component: {fileID: 843165750}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8649,7 +9152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 845443610}
   - component: {fileID: 845443611}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8733,7 +9236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 860884993}
   - component: {fileID: 860884994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8878,7 +9381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 880292543}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9015,7 +9518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 883734155}
   - component: {fileID: 883734156}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9098,7 +9601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 892111019}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9144,7 +9647,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 892218009}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9188,7 +9691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 893362068}
   - component: {fileID: 893362069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9272,7 +9775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 895473310}
   - component: {fileID: 895473311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9356,7 +9859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 914368999}
   - component: {fileID: 914369000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9440,7 +9943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 920237272}
   - component: {fileID: 920237273}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9514,6 +10017,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &925577401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925577402}
+  - component: {fileID: 925577403}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &925577402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925577401}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.082, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &925577403
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925577401}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &936149266
 GameObject:
   m_ObjectHideFlags: 0
@@ -9524,7 +10111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 936149267}
   - component: {fileID: 936149268}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9608,7 +10195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942011243}
   - component: {fileID: 942011244}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9697,7 +10284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 953827654}
   - component: {fileID: 953827655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9771,6 +10358,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &954781162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+  m_PrefabInstance: {fileID: 2138025899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963202180
 GameObject:
   m_ObjectHideFlags: 0
@@ -9781,7 +10373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963202181}
   - component: {fileID: 963202182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9865,7 +10457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 964159358}
   - component: {fileID: 964159359}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9949,7 +10541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 975920871}
   - component: {fileID: 975920872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10033,7 +10625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003144878}
   - component: {fileID: 1003144879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10117,7 +10709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004763620}
   - component: {fileID: 1004763621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10201,7 +10793,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1009755112}
   - component: {fileID: 1009755113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10285,7 +10877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023559228}
   - component: {fileID: 1023559227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10369,7 +10961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031157580}
   - component: {fileID: 1031157581}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10453,7 +11045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039865943}
   - component: {fileID: 1039865942}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10537,7 +11129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1043639480}
   - component: {fileID: 1043639481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10621,7 +11213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044125242}
   - component: {fileID: 1044125243}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10705,7 +11297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044267815}
   - component: {fileID: 1044267816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10789,7 +11381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1054207288}
   - component: {fileID: 1054207289}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10873,7 +11465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082622215}
   - component: {fileID: 1082622214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10957,7 +11549,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1087691029}
   - component: {fileID: 1087691030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11041,7 +11633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1097887927}
   - component: {fileID: 1097887926}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11125,7 +11717,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108595246}
   - component: {fileID: 1108595245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11209,7 +11801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120165134}
   - component: {fileID: 1120165135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11293,7 +11885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1128822914}
   - component: {fileID: 1128822915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11377,7 +11969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136654146}
   - component: {fileID: 1136654147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11461,7 +12053,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138399345}
   - component: {fileID: 1138399346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11602,7 +12194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1141618167}
   - component: {fileID: 1141618168}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11686,7 +12278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1146687333}
   - component: {fileID: 1146687334}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11770,7 +12362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148551724}
   - component: {fileID: 1148551723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11854,7 +12446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191178171}
   - component: {fileID: 1191178172}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11938,7 +12530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210407867}
   - component: {fileID: 1210407866}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12022,7 +12614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1220697404}
   - component: {fileID: 1220697405}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12106,7 +12698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1237416340}
   - component: {fileID: 1237416341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12190,7 +12782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1255275436}
   - component: {fileID: 1255275437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12264,6 +12856,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1262655756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1262655757}
+  - component: {fileID: 1262655758}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1262655757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262655756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.4158, y: -0.008, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1262655758
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262655756}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1269053913
 GameObject:
   m_ObjectHideFlags: 0
@@ -12274,7 +12950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269053914}
   - component: {fileID: 1269053915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12486,7 +13162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279586344}
   - component: {fileID: 1279586345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12560,6 +13236,174 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1285403036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1285403037}
+  - component: {fileID: 1285403038}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1285403037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285403036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2489, y: -0.007, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1585765717}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1285403038
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285403036}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1286284455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286284456}
+  - component: {fileID: 1286284457}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1286284456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286284455}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4161, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1286284457
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286284455}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1291445930
 GameObject:
   m_ObjectHideFlags: 0
@@ -12570,7 +13414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1291445931}
   - component: {fileID: 1291445932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12654,7 +13498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297655964}
   - component: {fileID: 1297655965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12776,7 +13620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1304937794}
   - component: {fileID: 1304937795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12860,7 +13704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1314019028}
   - component: {fileID: 1314019029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12934,6 +13778,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1316684313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316684314}
+  - component: {fileID: 1316684315}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316684314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316684313}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2489, y: -0.007, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1316684315
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316684313}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1341507018
 GameObject:
   m_ObjectHideFlags: 0
@@ -12944,7 +13872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1341507019}
   - component: {fileID: 1341507020}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13028,7 +13956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349129501}
   - component: {fileID: 1349129502}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13112,7 +14040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1349949680}
   - component: {fileID: 1349949681}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13198,12 +14126,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.43
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13211,7 +14147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13219,7 +14155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalRotation.z
@@ -13231,7 +14167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13248,181 +14184,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
   m_PrefabInstance: {fileID: 1356078709}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1358310281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1358310287}
-  - component: {fileID: 1358310286}
-  - component: {fileID: 1358310285}
-  - component: {fileID: 1358310284}
-  - component: {fileID: 1358310283}
-  - component: {fileID: 1358310282}
-  m_Layer: 6
-  m_Name: Player
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1358310282
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 81efeba3e86ba49cdb927fea86187af1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &1358310283
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.3, y: 0.47}
-    newSize: {x: 0.3, y: 0.47}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.47}
-  m_EdgeRadius: 0
---- !u!50 &1358310284
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 3
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &1358310285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59cb9331c4954dc4b8eafcd2fad31161, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  feetPos: {fileID: 2131733797}
-  bulletPrefab: {fileID: 3960679293340344554, guid: 78e48eaf97150324e9b336ed1ec37d62, type: 3}
-  gunPos: {fileID: 573015849}
---- !u!212 &1358310286
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -381018083, guid: d8dc27ef885564be8bcc312ead92f61d, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.3, y: 0.47}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1358310287
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358310281}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -3.15, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2131733797}
-  - {fileID: 573015849}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359783922
 GameObject:
   m_ObjectHideFlags: 0
@@ -13433,7 +14194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359783923}
   - component: {fileID: 1359783924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13507,6 +14268,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1379692690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1604319060}
+    m_Modifications:
+    - target: {fileID: 2350388561948807313, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_Name
+      value: Platform_1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807314, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807324, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807324, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 105.00355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1564362839, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
 --- !u!1 &1384401911
 GameObject:
   m_ObjectHideFlags: 0
@@ -13555,7 +14394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1385176146}
   - component: {fileID: 1385176147}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13639,7 +14478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1393112156}
   - component: {fileID: 1393112155}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13723,7 +14562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1393882640}
   - component: {fileID: 1393882641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13807,7 +14646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1396094616}
   - component: {fileID: 1396094617}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13891,7 +14730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1403619811}
   - component: {fileID: 1403619812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13975,7 +14814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1405270247}
   - component: {fileID: 1405270248}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14059,7 +14898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407816904}
   - component: {fileID: 1407816905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14143,7 +14982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413454575}
   - component: {fileID: 1413454576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14311,7 +15150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418596958}
   - component: {fileID: 1418596959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14395,7 +15234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421094154}
   - component: {fileID: 1421094155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14479,7 +15318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1425742507}
   - component: {fileID: 1425742508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14563,7 +15402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426903999}
   - component: {fileID: 1426904000}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14652,7 +15491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446908389}
   - component: {fileID: 1446908390}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14736,7 +15575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447701597}
   - component: {fileID: 1447701598}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14821,7 +15660,7 @@ GameObject:
   - component: {fileID: 1467662802}
   - component: {fileID: 1467662801}
   - component: {fileID: 1467662800}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -14931,7 +15770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467929810}
   - component: {fileID: 1467929811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15016,7 +15855,7 @@ GameObject:
   - component: {fileID: 1470595581}
   - component: {fileID: 1470595580}
   - component: {fileID: 1470595579}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -15126,7 +15965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501171931}
   - component: {fileID: 1501171932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15210,7 +16049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501300983}
   - component: {fileID: 1501300984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15337,7 +16176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508747519}
   - component: {fileID: 1508747518}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15510,7 +16349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1519676122}
   - component: {fileID: 1519676123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15584,6 +16423,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1524010542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1524010543}
+  - component: {fileID: 1524010544}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1524010543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524010542}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2504, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1524010544
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524010542}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1550891499
 GameObject:
   m_ObjectHideFlags: 0
@@ -15594,7 +16517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1550891500}
   - component: {fileID: 1550891501}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15678,7 +16601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560772509}
   - component: {fileID: 1560772510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15847,7 +16770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1565503484}
   - component: {fileID: 1565503485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15931,7 +16854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1567678470}
   - component: {fileID: 1567678471}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16015,7 +16938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1571199321}
   - component: {fileID: 1571199322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16098,7 +17021,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1573112398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16142,7 +17065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577646368}
   - component: {fileID: 1577646369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16226,7 +17149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584017222}
   - component: {fileID: 1584017223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16300,6 +17223,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1585765717 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+  m_PrefabInstance: {fileID: 1379692690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590280138
 GameObject:
   m_ObjectHideFlags: 0
@@ -16310,7 +17238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590280139}
   - component: {fileID: 1590280140}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16394,7 +17322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602671153}
   - component: {fileID: 1602671154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16478,7 +17406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1603200517}
   - component: {fileID: 1603200518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16603,6 +17531,8 @@ Transform:
   - {fileID: 1745869905}
   - {fileID: 2128074522}
   - {fileID: 1507620003}
+  - {fileID: 954781162}
+  - {fileID: 1585765717}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16616,7 +17546,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1624322467}
   - component: {fileID: 1624322468}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16700,7 +17630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625537810}
   - component: {fileID: 1625537811}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16783,7 +17713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1631679732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16830,7 +17760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632625076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16914,7 +17844,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1358310287}
+  m_Follow: {fileID: 1707797401}
   m_Lens:
     FieldOfView: 80
     OrthographicSize: 7.681974
@@ -16924,7 +17854,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7770833, y: 1}
+    m_SensorSize: {x: 1.7772194, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -16950,7 +17880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.42
+      value: -4.24
       objectReference: {fileID: 0}
     - target: {fileID: 2352519358975871954, guid: 4b20fdd1f9db81b43a06a0b1c4575ca9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17093,7 +18023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654149565}
   - component: {fileID: 1654149566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17262,7 +18192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1668318707}
   - component: {fileID: 1668318708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17346,7 +18276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673337479}
   - component: {fileID: 1673337480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17466,7 +18396,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1691491925}
   - component: {fileID: 1691491926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17550,7 +18480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1694569510}
   - component: {fileID: 1694569511}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17634,7 +18564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698811269}
   - component: {fileID: 1698811267}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17702,7 +18632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1705398890}
   - component: {fileID: 1705398889}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17776,6 +18706,16 @@ Transform:
   m_Father: {fileID: 701376667}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1707797394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3755581075844882793, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+  m_PrefabInstance: {fileID: 582708494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1707797401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3755581075844882791, guid: b0fc7e36fc836464faf33da798f85d8e, type: 3}
+  m_PrefabInstance: {fileID: 582708494}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1719915522
 GameObject:
   m_ObjectHideFlags: 0
@@ -17786,7 +18726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719915523}
   - component: {fileID: 1719915524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17870,7 +18810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1729295280}
   - component: {fileID: 1729295281}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17954,7 +18894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1733051806}
   - component: {fileID: 1733051807}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18100,7 +19040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747886417}
   - component: {fileID: 1747886418}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18184,7 +19124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1753272071}
   - component: {fileID: 1753272070}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18268,7 +19208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1760404128}
   - component: {fileID: 1760404129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18352,7 +19292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1763286658}
   - component: {fileID: 1763286659}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18521,7 +19461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1772732452}
   - component: {fileID: 1772732453}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18605,7 +19545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791539306}
   - component: {fileID: 1791539305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18773,7 +19713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808607892}
   - component: {fileID: 1808607893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18857,7 +19797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1810533056}
   - component: {fileID: 1810533057}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18941,7 +19881,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1816699950}
   - component: {fileID: 1816699951}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19025,7 +19965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1817997698}
   - component: {fileID: 1817997699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19109,7 +20049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1822893101}
   - component: {fileID: 1822893102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19193,7 +20133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1823196489}
   - component: {fileID: 1823196490}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19277,7 +20217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824768118}
   - component: {fileID: 1824768119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19361,7 +20301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1825204813}
   - component: {fileID: 1825204814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19445,7 +20385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1832336611}
   - component: {fileID: 1832336612}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19529,7 +20469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1846272771}
   - component: {fileID: 1846272772}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19698,7 +20638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852627158}
   - component: {fileID: 1852627157}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19782,7 +20722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854866653}
   - component: {fileID: 1854866654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19866,7 +20806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1863262617}
   - component: {fileID: 1863262618}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19950,7 +20890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1867397003}
   - component: {fileID: 1867397004}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20034,7 +20974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868281914}
   - component: {fileID: 1868281915}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20202,7 +21142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891873369}
   - component: {fileID: 1891873370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20364,7 +21304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1913530693}
   - component: {fileID: 1913530694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20448,7 +21388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1921577801}
   - component: {fileID: 1921577800}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20532,7 +21472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1923634449}
   - component: {fileID: 1923634450}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20616,7 +21556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928903215}
   - component: {fileID: 1928903216}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20743,7 +21683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955743647}
   - component: {fileID: 1955743648}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20832,7 +21772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960810306}
   - component: {fileID: 1960810307}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20916,7 +21856,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1962232238}
   - component: {fileID: 1962232239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21000,7 +21940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979242694}
   - component: {fileID: 1979242695}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21084,7 +22024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1984843053}
   - component: {fileID: 1984843054}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21168,7 +22108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004651972}
   - component: {fileID: 2004651973}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21252,7 +22192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005559794}
   - component: {fileID: 2005559795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21336,7 +22276,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2019792495}
   - component: {fileID: 2019792496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21420,7 +22360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2023160873}
   - component: {fileID: 2023160874}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21577,7 +22517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026112799}
   - component: {fileID: 2026112798}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21833,7 +22773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2298ffe9b36eee44b82455d61e22d76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1358310281}
+  target: {fileID: 1707797394}
 --- !u!114 &2041281570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21878,7 +22818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2059819587}
   - component: {fileID: 2059819588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22046,7 +22986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075663394}
   - component: {fileID: 2075663395}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22130,7 +23070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2079767534}
   - component: {fileID: 2079767535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22214,7 +23154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2082499320}
   - component: {fileID: 2082499321}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22366,7 +23306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2085141190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22408,7 +23348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2091765165}
   - component: {fileID: 2091765164}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ghost_Tileset_1 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22482,6 +23422,90 @@ Transform:
   m_Father: {fileID: 701376667}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2106975496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2106975497}
+  - component: {fileID: 2106975498}
+  m_Layer: 7
+  m_Name: Ghost_Tileset_1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2106975497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106975496}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.082, y: -0.001, z: 0}
+  m_LocalScale: {x: 0.1667, y: 1.0002, z: 1.0002}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 954781162}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2106975498
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106975496}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1265465955, guid: 0657e3183b0d11244954beea0d4567e7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2118056285
 GameObject:
   m_ObjectHideFlags: 0
@@ -22492,7 +23516,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118056286}
   - component: {fileID: 2118056287}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22576,7 +23600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2121278435}
   - component: {fileID: 2121278436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_4 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22693,37 +23717,84 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &2131733796
-GameObject:
+--- !u!1001 &2138025899
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2131733797}
-  m_Layer: 6
-  m_Name: Feet
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2131733797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131733796}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.233, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1358310287}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1604319060}
+    m_Modifications:
+    - target: {fileID: 2350388561948807313, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_Name
+      value: Platform_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807314, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_UseOneWay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807324, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807324, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 105.00355
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2350388561948807325, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1564362839, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0adbb1d12a16f62488ef3ffd91006e61, type: 3}
 --- !u!1 &2140545247
 GameObject:
   m_ObjectHideFlags: 0
@@ -22734,7 +23805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2140545248}
   - component: {fileID: 2140545249}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ghost_Tileset_5 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
